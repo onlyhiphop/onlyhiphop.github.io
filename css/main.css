@@ -1979,7 +1979,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f65e0;
+  background: #edff5d;
 }
 .feed-link,
 .chat {
@@ -3172,7 +3172,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background: url("../images/bg.jpg");
+  background: url("https://gitee.com/onlyhiphop/blog/blob/master/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
