@@ -6,7 +6,7 @@
   <link href="/onlyhiphop.github.io/atom.xml" rel="self"/>
   
   <link href="http://onlyhiphop.github.io/"/>
-  <updated>2019-06-05T15:35:19.868Z</updated>
+  <updated>2019-06-10T15:59:59.051Z</updated>
   <id>http://onlyhiphop.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA搭建Maven环境</title>
+    <link href="http://onlyhiphop.github.io/2019/06/10/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/"/>
+    <id>http://onlyhiphop.github.io/2019/06/10/IDEA搭建Maven环境/</id>
+    <published>2019-06-10T15:48:46.000Z</published>
+    <updated>2019-06-10T15:59:59.051Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="IDEA搭建Maven环境"><a href="#IDEA搭建Maven环境" class="headerlink" title="IDEA搭建Maven环境"></a>IDEA搭建Maven环境</h2><p>一、用idea创建maven web项目<br><img src="/onlyhiphop.github.io/.io//1.jpg" alt="图片1"></p><p>二、在idea中配置maven环境</p><p>三、settings.xml文件与配置</p><p>四、解决maven骨架问题（提高开发速度）</p><p>五、在idea中查看maven、冲突依赖、与修改pom.xml文件</p><p>六、maven的基本命令</p><p>七、maven多模块开发（推荐链接在下面）</p><p>八、maven加载xml等文件</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;IDEA搭建Maven环境&quot;&gt;&lt;a href=&quot;#IDEA搭建Maven环境&quot; class=&quot;headerlink&quot; title=&quot;IDEA搭建Maven环境&quot;&gt;&lt;/a&gt;IDEA搭建Maven环境&lt;/h2&gt;&lt;p&gt;一、用idea创建maven web项目&lt;br&gt;&lt;i
+      
+    
+    </summary>
+    
+      <category term="Maven" scheme="http://onlyhiphop.github.io/categories/Maven/"/>
+    
+    
+      <category term="maven" scheme="http://onlyhiphop.github.io/tags/maven/"/>
+    
+  </entry>
   
   <entry>
     <title>hello hexo</title>
