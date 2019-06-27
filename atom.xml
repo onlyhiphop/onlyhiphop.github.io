@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-26T15:59:22.296Z</updated>
+  <updated>2019-06-27T00:38:34.974Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/06/10/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/"/>
     <id>http://yoursite.com/2019/06/10/IDEA搭建Maven环境/</id>
     <published>2019-06-10T15:48:46.000Z</published>
-    <updated>2019-06-26T15:59:22.296Z</updated>
+    <updated>2019-06-27T00:38:34.974Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="IDEA搭建Maven环境"><a href="#IDEA搭建Maven环境" class="headerlink" title="IDEA搭建Maven环境"></a>IDEA搭建Maven环境</h2><p>本教程将介绍如何使用Maven在intellijIDEA中使用等、开发语言Java。</p><ul><li><p><a href="#1">一、使用idea创建maven项目</a></p></li><li><p><a href="#2">二、在idea中配置maven环境</a></p></li><li><p><a href="#3">三、settings.xml文件与配置</a></p></li><li><p><a href="#4">四、解决maven骨架问题（提高开发速度）</a></p></li><li><p><a href="#5">五、在idea中查看maven、冲突依赖、与修改pom.xml文件</a></p></li><li><p><a href="#6">六、maven的基本命令</a></p></li><li><p><a href="#7">七、maven多模块开发</a></p></li><li><p><a href="#8">八、maven加载xml等文件</a></p></li></ul><hr><h4 id="1">一、用idea创建maven web项目</h4>![maven](/uploads/IDEA搭建Maven环境/maven1.png "maven")<p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven2.png" alt="maven" title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven3.png" alt="maven" title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven4.png" alt="maven" title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven5.png" alt="maven" title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven6.png" alt="maven" title="maven"></p><p><strong><em>这样就完成了在idea里创建maven项目、前提已经配置环境。</em></strong></p><h4 id="2">二、在idea中配置maven环境</h4><h4 id="3">三、settings.xml文件与配置</h4><h4 id="4">四、解决maven骨架问题（提高开发速度）</h4><h4 id="5">五、在idea中查看maven、冲突依赖、与修改pom.xml文件</h4><h4 id="6">六、maven的基本命令</h4><h4 id="7">七、maven多模块开发</h4><h4 id="8">八、maven加载xml等文件</h4>]]></content>
+    <content type="html"><![CDATA[<h2 id="IDEA搭建Maven环境"><a href="#IDEA搭建Maven环境" class="headerlink" title="IDEA搭建Maven环境"></a>IDEA搭建Maven环境</h2><p>本教程将介绍如何使用Maven在intellijIDEA中使用等、开发语言Java。</p><ul><li><p><a href="#1">一、使用idea创建maven项目</a></p></li><li><p><a href="#2">二、在idea中配置maven环境</a></p></li><li><p><a href="#3">三、settings.xml文件与配置</a></p></li><li><p><a href="#4">四、解决maven骨架问题（提高开发速度）</a></p></li><li><p><a href="#5">五、在idea中查看maven、冲突依赖、与修改pom.xml文件</a></p></li><li><p><a href="#6">六、maven的基本命令</a></p></li><li><p><a href="#7">七、maven多模块开发</a></p></li><li><p><a href="#8">八、maven加载xml等文件</a></p></li></ul><hr><h4 id="1">一、用idea创建maven web项目</h4><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven1.png" alt title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven2.png" alt title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven3.png" alt title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven4.png" alt title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven5.png" alt title="maven"></p><p><img src="/uploads/IDEA%E6%90%AD%E5%BB%BAMaven%E7%8E%AF%E5%A2%83/maven6.png" alt title="maven"></p><p><strong><em>这样就完成了在idea里创建maven项目、前提已经配置环境。</em></strong></p><h4 id="2">二、在idea中配置maven环境</h4><h4 id="3">三、settings.xml文件与配置</h4><h4 id="4">四、解决maven骨架问题（提高开发速度）</h4><h4 id="5">五、在idea中查看maven、冲突依赖、与修改pom.xml文件</h4><h4 id="6">六、maven的基本命令</h4><h4 id="7">七、maven多模块开发</h4><h4 id="8">八、maven加载xml等文件</h4>]]></content>
     
     <summary type="html">
     
