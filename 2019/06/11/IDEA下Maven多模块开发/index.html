@@ -103,16 +103,26 @@
 
 
 
-  <meta name="description" content="欢迎您的到来！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="onlyhiphop的博客">
-<meta property="og:url" content="http://yoursite.com/categories/Maven/index.html">
+  <meta name="description" content="IDEA下Maven多模块开发本教程将介绍如何使用IDEA进行Maven多模块工程开发。  一、使用IDEA搭建Maven多模块工程  二、Maven中继承和聚合的关系  三、Maven的三种工程pom、jar、war的区别  四、在IDEA中创建pom，jar，war项目  五、Maven的三种工程实例    一、使用IDEA搭建Maven多模块工程   首先，我们先来创建一个新的工作空间。">
+<meta name="keywords" content="maven">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDEA下Maven多模块开发">
+<meta property="og:url" content="http://yoursite.com/2019/06/11/IDEA下Maven多模块开发/index.html">
 <meta property="og:site_name" content="onlyhiphop的博客">
-<meta property="og:description" content="欢迎您的到来！">
+<meta property="og:description" content="IDEA下Maven多模块开发本教程将介绍如何使用IDEA进行Maven多模块工程开发。  一、使用IDEA搭建Maven多模块工程  二、Maven中继承和聚合的关系  三、Maven的三种工程pom、jar、war的区别  四、在IDEA中创建pom，jar，war项目  五、Maven的三种工程实例    一、使用IDEA搭建Maven多模块工程   首先，我们先来创建一个新的工作空间。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/1.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/2.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/3.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/4.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/5.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/6.png">
+<meta property="og:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/7.png">
+<meta property="og:updated_time" content="2019-06-27T05:40:00.154Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="onlyhiphop的博客">
-<meta name="twitter:description" content="欢迎您的到来！">
+<meta name="twitter:title" content="IDEA下Maven多模块开发">
+<meta name="twitter:description" content="IDEA下Maven多模块开发本教程将介绍如何使用IDEA进行Maven多模块工程开发。  一、使用IDEA搭建Maven多模块工程  二、Maven中继承和聚合的关系  三、Maven的三种工程pom、jar、war的区别  四、在IDEA中创建pom，jar，war项目  五、Maven的三种工程实例    一、使用IDEA搭建Maven多模块工程   首先，我们先来创建一个新的工作空间。">
+<meta name="twitter:image" content="http://yoursite.com/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/1.png">
 
 
 
@@ -122,7 +132,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/categories/Maven/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/11/IDEA下Maven多模块开发/">
 
 
 
@@ -132,7 +142,7 @@
   };
 </script>
 
-  <title>分类: Maven | onlyhiphop的博客</title>
+  <title>IDEA下Maven多模块开发 | onlyhiphop的博客</title>
   
 
 
@@ -180,7 +190,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 	<a href="https://github.com/onlyhiphop" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 	
@@ -240,7 +250,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
 
     
     
@@ -328,103 +338,341 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Maven<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/11/IDEA下Maven多模块开发/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="onlyhiphop">
+      <meta itemprop="description" content="欢迎您的到来！">
+      <meta itemprop="image" content="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2595150218,1467046340&fm=26&gp=0.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="onlyhiphop的博客">
+    </span>
+
+    
+      <header class="post-header">
+		
         
-          <a class="post-title-link" href="/2019/06/11/IDEA下Maven多模块开发/" itemprop="url">
-            
-              <span itemprop="name">IDEA下Maven多模块开发</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">IDEA下Maven多模块开发
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-11T22:45:24+08:00" content="2019-06-11">
-          06-11
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-11 22:45:24" itemprop="dateCreated datePublished" datetime="2019-06-11T22:45:24+08:00">2019-06-11</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-27 13:40:00" itemprop="dateModified" datetime="2019-06-27T13:40:00+08:00">2019-06-27</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Maven/" itemprop="url" rel="index"><span itemprop="name">Maven</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
+      
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <h2 id="IDEA下Maven多模块开发"><a href="#IDEA下Maven多模块开发" class="headerlink" title="IDEA下Maven多模块开发"></a>IDEA下Maven多模块开发</h2><p>本教程将介绍如何使用IDEA进行Maven多模块工程开发。</p>
+<ul>
+<li><p><a href="#1">一、使用IDEA搭建Maven多模块工程</a></p>
+</li>
+<li><p><a href="#2">二、Maven中继承和聚合的关系</a></p>
+</li>
+<li><p><a href="#3">三、Maven的三种工程pom、jar、war的区别</a></p>
+</li>
+<li><p><a href="#4">四、在IDEA中创建pom，jar，war项目</a></p>
+</li>
+<li><p><a href="#5">五、Maven的三种工程实例</a></p>
+</li>
+</ul>
+<hr>
+<h4 id="1">一、使用IDEA搭建Maven多模块工程</h4>
 
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/06/10/IDEA搭建Maven环境/" itemprop="url">
-            
-              <span itemprop="name">IDEA搭建Maven环境</span>
-            
-          </a>
-        
-      </h2>
+<ol>
+<li><p>首先，我们先来创建一个新的工作空间。 <br><br> File -&gt; New-Project -&gt; Empty Project <br><br> 点击Next，进行下一步</p>
+</li>
+<li><p>Project location：点击选择一个空文件夹，作为工作空间 <br><br> <font color="red" size="10">注意：路径不要有中文</font> <br><br> 点击Finish,进行下一步</p>
+</li>
+<li><p>现在工程打开的其实就是我们刚才创建的工作空间。</p>
+</li>
+<li><p>现在我们开始创建父工程.<br> <font color="red" size="10">注意：路径不要有中文</font> <br></p>
+<p> File -&gt; Module  -&gt; Maven -&gt; Next <br><br> <strong>选择</strong> <br><br> <img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/1.png" alt="maven"></p>
+<p> 直接点击Next</p>
+</li>
+<li><p>创建子工程pojo(打包方式为Jar) <br><br> File -&gt; Module  -&gt; Maven -&gt; Next <br><br> <strong>选择</strong> <br><br> <img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/2.png" alt="maven"></p>
+</li>
+<li><p>选择父工程，填写GroupId和ArtifactId和版本信息 <br><br> <img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/3.png" alt="maven"></p>
+</li>
+<li><p>现在我们能看到common.pom中已经继承了parent工程而parent工程中也聚合和common。 <br><br> <img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/4.png" alt="maven"><br> <img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/5.png" alt="maven"></p>
+</li>
+</ol>
+<h4 id="2">二、Maven中继承和聚合的关系</h4>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-10T23:48:46+08:00" content="2019-06-10">
-          06-10
-        </time>
-      </div>
+<pre><code>*两者的目的是不一样的，聚合的目的是能够快速的构建项目，继承的目的是减少重复配置。*</code></pre><p><strong>1. 聚合</strong><br><br>定义一个聚合模块，然后在pom文件中添加&lt;module&gt;&lt;/module&gt;标签，其中的内容是模块相对于当前模块的路径。那么在构建聚合模块的时候，在&lt;module&gt;中定义的模块也会跟着构建，不用逐个构建，因此加快了构建速度。</p>
+<p><strong>2. 继承</strong><br><br>除了定义一个父模块，在父模块的pom文件中添加&lt;module&gt;标签，还要在子模块pom文件中添加&lt;parent&gt;标签，指向父模块。指向之后，那么在父模块中定义的插件和依赖都可以被子模块继承，就不用再子模块pom文件中重复配置了（减少了重复配置）。<br><br><font color="red">注：无论是聚合还是继承，父模块的pom文件中的&lt;packageing&gt;的内容都是pom，（这是规定）。如果不写的话，默认的都是jar。</font></p>
+<p><strong>3. 实际应用</strong><br><br>还有一个问题就是，在父模块定义了很多依赖，但是某一个模块并没有全部用到，那么子模块还是会全部继承过来。比较浪费。<br>所以可以使用依赖管理标签&lt;dependencyManagement&gt;<br>在父模块的pom文件中的&lt;dependencyManagement&gt;&lt;/dependencyManagement&gt;定义了所有需要依赖的jar包，但是这样子模块并不会引入这些jar包。子模块中需要哪些jar包就在自身pom文件的&lt;dependency&gt;标签中引入就可以了，因为父模块的pom文件中已经定义过了，子模块的pom文件只需定义出&lt;groupId&gt;和&lt;artifactId&gt;就可以了。</p>
+<h4 id="3">三、Maven的三种工程pom、jar、war的区别</h4>
 
-    </header>
-  </article>
+<pre><code>1.pom工程：用在父级工程或聚合工程中。用来做jar包的版本控制。
+- 打出来可以作为其他项目的maven依赖，在工程A中添加工程B的pom，A就可以使用B中的类。
 
+2.war工程：将会打包成war，发布在服务器上的工程。如网站或服务。
+
+3.jar工程：将会打包成jar用作jar包使用。
+
+&lt;font color=&quot;red&quot;&gt;补充一下&lt;/font&gt;，jdk9 后还可以打包 jmod（Java 模块化），厉害的是这个通过 jlink 命令，可以直接将 jmod 打包为对应环境的可执行的程序，告别了让用户安装 jdk 的步骤，现在也有对应的 maven 插件了</code></pre><h4 id="4">四、在IDEA中创建pom，jar，war项目</h4>
+
+<ol>
+<li>创建java jar、pom项目时创建maven-archetype-quickstart</li>
+<li>创建java war项目时创建maven-archetype-webapp</li>
+</ol>
+<p><img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/6.png" alt="maven"></p>
+<h4 id="5">五、Maven的三种工程实例</h4>
+
+<ul>
+<li>以宜立方商城为例</li>
+</ul>
+<p><img src="/uploads/IDEA%E4%B8%8BMaven%E5%A4%9A%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/7.png" alt="maven"></p>
+<ol>
+<li><p>pom工程<br><br> 1.1 Tmallparent <br></p>
+<pre><code>整个项目的父工程，它是一个pom工程。用来做整个项目的版本控制，也就是项目中所有要使用到的jar包的版本都集中由父工程管理。这样你在写其他工程pom文件中maven依赖时就不需要写版本号了。当然所有的项目都要先继承它才行。&lt;br&gt;</code></pre><p> 1.2 Tmallmanager <br></p>
+<pre><code>用来做聚合工程，它也是一个pom工程。创建四个model分别是manager-dao 、manager-service、
+manager-interface、manager-pojo
+manager-web 同时会自动生成4个独立的maven工程。聚合工程只是用来帮助其他模块构建的工具，本身并没有实质的内容。具体每个工程代码的编写还是在生成的工程中去写</code></pre><p> <font color="red">pom工程的意义:</font><br><br> 原本这些模块也是一个个独立的工程，现在将它们聚合到Tmallmanager中，这样我们构建项目的时候就只要构建Tmallmanager一个就行了。我们只要使用maven构建这个聚合工程taotao-manager就行了而不用去操心模块的构建，比如install时只要install taotao-manager就行。总之就是简化操作。正常的编码工作还是在对应的manager-dao 、manager-service、</p>
+<pre><code>manager-interface、manager-pojo工程中进行的。</code></pre></li>
+<li><p>war工程</p>
+<p> 2.1 Tmallmanager-web <br><br> 这些工程都是要部署在服务器上的，所以要打包成war形式。这些工程有的是用户通过浏览器直接访问，有的是通过发布服务被别的工程调用。</p>
+</li>
+<li><p>jar工程</p>
+<p> 3.1 Tmallcommon <br><br>  这个就是打包成jar的工程。它就是存放一些其他工程都会使用的类，工具类。我们可以在其他工程的pom文件中去引用它，和引用别的jar包没什么区别。</p>
+</li>
+</ol>
 
       
     </div>
 
+    
+
+    
+    
+    
+	<div>
+      
+        
+      
+	</div>
+
+    
+      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/uploads/weixin.jpg" alt="onlyhiphop wechat" style="width: 200px; max-width: 100%;">
+  <div>欢迎扫描上面的微信公总号，了解我的最新消息！</div>
+</div>
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div id="reward-container">
+  <div></div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/uploads/wechatpay.png" alt="onlyhiphop 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/uploads/alipay.jpg" alt="onlyhiphop 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/maven/" rel="tag"># maven</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/10/IDEA搭建Maven环境/" rel="next" title="IDEA搭建Maven环境">
+                <i class="fa fa-chevron-left"></i> IDEA搭建Maven环境
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80NDU5Ni8yMTEyNQ=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -444,8 +692,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -556,6 +813,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#IDEA下Maven多模块开发"><span class="nav-number">1.</span> <span class="nav-text">IDEA下Maven多模块开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1"><span class="nav-number">1.0.1.</span> <span class="nav-text">一、使用IDEA搭建Maven多模块工程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2"><span class="nav-number">1.0.2.</span> <span class="nav-text">二、Maven中继承和聚合的关系</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3"><span class="nav-number">1.0.3.</span> <span class="nav-text">三、Maven的三种工程pom、jar、war的区别</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4"><span class="nav-number">1.0.4.</span> <span class="nav-text">四、在IDEA中创建pom，jar，war项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5"><span class="nav-number">1.0.5.</span> <span class="nav-text">五、Maven的三种工程实例</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -735,6 +1009,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
 
   
 
@@ -750,6 +1028,23 @@
 
   
 
+
+  
+    <script>
+  window.livereOptions = {
+    refer: '2019/06/11/IDEA下Maven多模块开发/'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+  
 
 
   
