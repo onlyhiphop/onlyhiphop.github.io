@@ -1979,7 +1979,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2a65af;
+  background: #0da2eb;
 }
 .feed-link,
 .chat {
@@ -3177,5 +3177,5 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.9;
 }
