@@ -103,20 +103,20 @@
 
 
 
-  <meta name="description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？    1. 代理模式的定义：   为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功能。   通">
+  <meta name="description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？   ***1. 代理模式的定义：***    为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功">
 <meta name="keywords" content="design">
 <meta property="og:type" content="article">
 <meta property="og:title" content="设计模式之动态代理">
 <meta property="og:url" content="https://github.com/onlyhiphop/2019/06/13/设计模式-动态代理/index.html">
 <meta property="og:site_name" content="onlyhiphop的博客">
-<meta property="og:description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？    1. 代理模式的定义：   为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功能。   通">
+<meta property="og:description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？   ***1. 代理模式的定义：***    为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://github.com/uploads/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/1.png">
 <meta property="og:image" content="https://github.com/uploads/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/2.png">
-<meta property="og:updated_time" content="2019-06-28T13:13:57.162Z">
+<meta property="og:updated_time" content="2019-10-11T05:11:24.696Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="设计模式之动态代理">
-<meta name="twitter:description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？    1. 代理模式的定义：   为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功能。   通">
+<meta name="twitter:description" content="设计模式之动态代理 一、什么是代理模式？  二、静态代理  三、动态代理  四、spring中的动态代理模式    一、什么是代理模式？   ***1. 代理模式的定义：***    为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功">
 <meta name="twitter:image" content="https://github.com/uploads/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/1.png">
 
 
@@ -413,7 +413,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-28 21:13:57" itemprop="dateModified" datetime="2019-06-28T21:13:57+08:00">2019-06-28</time>
+                <time title="修改时间：2019-10-11 13:11:24" itemprop="dateModified" datetime="2019-10-11T13:11:24+08:00">2019-10-11</time>
               
             
           </span>
@@ -484,8 +484,8 @@
 </ul>
 <hr>
 <h4 id="1">一、什么是代理模式？</h4>
+  ***1. 代理模式的定义：***
 
-<p>  <strong><em>1. 代理模式的定义：</em></strong></p>
 <p>  为其他对象提供一种代理以控制对这个对象的访问。使用代理模式创建代理对象，让代理对象控制目标对象的访问(目标对象可以是远程的对象、创建开销大的对象或需要安全控制的对象),并且可以在不改变目标对象的情况下添加一些额外的功能。</p>
 <p>  通俗的说，所谓代理，就是一个人或者一个机构代表另一个人或者另一个机构采取行动。在一些情况下，一个客户不想或者不能够直接引用一个对象，而代理对象可以在客户端和目标对象之前起到中介的作用</p>
 <p>  <strong><em>2. 代理模式涉及到的角色：</em></strong></p>
@@ -497,24 +497,25 @@
 <p>  <strong><em>3. 特征：</em></strong></p>
 <p>  实现共同的接口以便于增强某个共有的方法，代理类拥有真实类的引用</p>
 <h4 id="2">二、静态代理</h4>
+  ***1. 静态代理模式：***
 
-<p>  <strong><em>1. 静态代理模式：</em></strong></p>
 <p>  静态代理说白了就是在程序运行前就已经存在代理类的字节码文件，代理类和原始类的关系在运行前就已经确定。最大的特点就是在程序运行时代理类的.class文件就已经存在了，但是这有一个很大的缺陷即每一个代理类只能为一个接口服务。</p>
 <p>  <strong><em>2. 静态代理案例：</em></strong></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">package test.staticProxy;</span><br><span class="line"><span class="comment">// 接口</span></span><br><span class="line"><span class="keyword">public</span> interface IUserDao &#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">save</span><span class="params">()</span></span>;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">find</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//目标对象</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UserDao</span> <span class="title">implements</span> <span class="title">IUserDao</span>&#123;</span></span><br><span class="line">  @Override</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">save</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"模拟：保存用户！"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  @Override</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"模拟：查询用户"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    静态代理</span></span><br><span class="line"><span class="comment">  特点：</span></span><br><span class="line"><span class="comment">  1. 目标对象必须要实现接口</span></span><br><span class="line"><span class="comment">  2. 代理对象，要实现与目标对象一样的接口</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UserDaoProxy</span> <span class="title">implements</span> <span class="title">IUserDao</span>&#123;</span></span><br><span class="line">  <span class="comment">// 代理对象，需要维护一个目标对象</span></span><br><span class="line">  <span class="keyword">private</span> IUserDao target = <span class="keyword">new</span> UserDao();</span><br><span class="line">  @Override</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">save</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"代理操作： 开启事务..."</span>);</span><br><span class="line">    target.save();   <span class="comment">// 执行目标对象的方法</span></span><br><span class="line">    System.out.println(<span class="string">"代理操作：提交事务..."</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  @Override</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    target.find();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> test.staticProxy;</span><br><span class="line"><span class="comment">// 接口</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">IUserDao</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">save</span><span class="params">()</span></span>;</span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">find</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//目标对象</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UserDao</span> <span class="keyword">implements</span> <span class="title">IUserDao</span></span>&#123;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">save</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"模拟：保存用户！"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"模拟：查询用户"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    静态代理</span></span><br><span class="line"><span class="comment">  特点：</span></span><br><span class="line"><span class="comment">  1. 目标对象必须要实现接口</span></span><br><span class="line"><span class="comment">  2. 代理对象，要实现与目标对象一样的接口</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UserDaoProxy</span> <span class="keyword">implements</span> <span class="title">IUserDao</span></span>&#123;</span><br><span class="line">  <span class="comment">// 代理对象，需要维护一个目标对象</span></span><br><span class="line">  <span class="keyword">private</span> IUserDao target;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">UserDaoProxy</span><span class="params">(IUserDao userDao)</span></span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.target = userDao;</span><br><span class="line">  &#125; </span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">save</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"代理操作： 开启事务..."</span>);</span><br><span class="line">    target.save();   <span class="comment">// 执行目标对象的方法</span></span><br><span class="line">    System.out.println(<span class="string">"代理操作：提交事务..."</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="meta">@Override</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">find</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    target.find();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        IUserDao userDao = <span class="keyword">new</span> UserDaoProxy(<span class="keyword">new</span> UserDao());</span><br><span class="line">        userDao.save();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>  <strong><em>3. 总结：</em></strong></p>
 <p>  如果要按照上述的方式（静态代理）使用代理模式，那么真实角色必须是实现已经存在的，并将其作为代理对象的内部属性。但是实际使用时，一个真实角色必须对应一个代理角色，大量使用静态代理会导致类的急剧膨胀；此外，如果事先并不知道真实角色，该如何使用代理呢？这个问题可以通过Java的动态代理类来解决。</p>
 <h4 id="3">三、动态代理</h4>
+  ***1. 动态代理模式简介:***
 
-<p>  <strong><em>1. 动态代理模式简介:</em></strong></p>
 <p>  动态代理类（Proxy）的源码是在程序运行期间通过JVM反射等机制动态生成，代理类和委托类的关系是运行时才确定的。</p>
-<p>  <strong><em>2. 动态代理模式创建方式:</em></strong></p>
+<p>  <strong><em>2. 动态代理模式两种创建方式:</em></strong></p>
+<p>​            Foo是一个interface</p>
 <p>  （1）getProxyClass()静态方法负责创建动态代理类，它的完整定义如下：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> Class&lt;?&gt; getProxyClass(ClassLoader loader, Class&lt;?&gt;[] interfaces) throws IllegalArgumentException</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> Class&lt;?&gt; getProxyClass(ClassLoader loader, Class&lt;?&gt;[] interfaces) <span class="keyword">throws</span> IllegalArgumentException</span><br></pre></td></tr></table></figure>
 
 <p>  <em>例子：</em></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**** 方式一 ****/</span></span><br><span class="line"><span class="comment">//创建InvocationHandler对象</span></span><br><span class="line">InvocationHandler handler = <span class="keyword">new</span> MyInvocationHandler(...);</span><br><span class="line"><span class="comment">//创建动态代理类</span></span><br><span class="line">Class proxyClass = Proxy.getProxyClass(Foo.class.getClassLoader(), <span class="keyword">new</span> Class[] &#123; Foo.class &#125;);</span><br><span class="line"><span class="comment">//创建动态代理类的实例</span></span><br><span class="line">Foo foo = (Foo) proxyClass.getConstructor(<span class="keyword">new</span> Class[] &#123; InvocationHandler.class &#125;).newInstance(<span class="keyword">new</span> Object[] &#123; handler &#125;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**** 方式一 ****/</span></span><br><span class="line"><span class="comment">//创建InvocationHandler对象</span></span><br><span class="line">InvocationHandler handler = <span class="keyword">new</span> MyInvocationHandler(...);</span><br><span class="line"><span class="comment">//创建动态代理类</span></span><br><span class="line">Class proxyClass = Proxy.getProxyClass(Foo.class.getClassLoader(), <span class="keyword">new</span> Class[] &#123; Foo.class &#125;);</span><br><span class="line"><span class="comment">//创建动态代理类的实例</span></span><br><span class="line">Foo foo = (Foo) proxyClass.getConstructor(<span class="keyword">new</span> Class[] &#123; InvocationHandler.class &#125;).newInstance(<span class="keyword">new</span> Object[] &#123; handler &#125;);</span><br></pre></td></tr></table></figure>
 
 <p>参数loader 指定动态代理类的类加载器，参数interfaces 指定动态代理类需要实现的所有接口。</p>
 <p><font color="red">由此可以知道：</font> 生成的代理类没有无参构造函数，只有一个拥有InvocationHandler参数的构造器，利用这个构造器给生成的代理类中的InvocationHandler属性赋值。</p>
@@ -534,8 +535,8 @@
 <p> <strong><em>5. 补充:</em></strong></p>
 <p>  但这里又引入一个问题,如果某个类没有实现接口,就不能使用JDK动态代理,所以Cglib代理就是解决这个问题的。<br>  Cglib是以动态生成的子类继承目标的方式实现，在运行期动态的在内存中构建一个子类</p>
 <h4 id="4">四、spring中的动态代理模式</h4>
+**前文提到JDK代理和Cglib代理两种动态代理，优秀的Spring框架把两种方式在底层都集成了进去,我们无需担心自己去实现动态生成代理。那么，Spring是如何生成代理对象的？**
 
-<p><strong>前文提到JDK代理和Cglib代理两种动态代理，优秀的Spring框架把两种方式在底层都集成了进去,我们无需担心自己去实现动态生成代理。那么，Spring是如何生成代理对象的？</strong></p>
 <ol>
 <li><p>创建容器对象的时候，根据切入点表达式拦截的类，生成代理对象。</p>
 </li>
@@ -715,7 +716,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -738,7 +739,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -757,7 +760,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   
                 </div>
@@ -893,7 +898,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共4.8k字</span>
+  <span class="post-count">博客全站共7.2k字</span>
 </div>
 
         
